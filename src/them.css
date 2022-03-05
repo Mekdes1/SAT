@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@800&display=swap");
+
+:root {
+  /* Available colors */
+  --black: #2a2a2a !important;
+  --white: #ffff !important;
+  --grey: #ebecf0 !important;
+  --light-grey: #f4f4f4 !important;
+  --dark-grey: #bcbcbc !important;
+  --blue: #738aff !important;
+  --bg-gray: #e6e6e6 !important;
+  --green: #00FF00 !important;
+  --yellow: #FFFF00 !important;
+  --red: #FF0000 !important;
+
+ 
+
+  /*Shadows*/
+  /*buttons*/
+  --embossed-shadow-low: 5px 5px 8px #c9cbd8,
+    -7px -7px 8px rgba(255, 255, 255, 0.8);
+  --debossed-shadow-low: inset 2px 2px 10px rgba(102, 102, 102, 0.6),
+    inset -3px -3px 10px rgba(255, 255, 255, 0.9);
+
+  /*big blocks*/
+  --embossed-shadow-high: 5px 5px 20px #c9cbd8,
+    -7px -7px 20px rgba(255, 255, 255, 0.8);
+
+  /*inputs*/
+  --debossed-shadow-high: inset 4px 4px 8px #c9cbd8,
+    inset -3px -3px 10px rgba(255, 255, 255, 0.9);
+
+  /*sidebar nav, majority of components */
+  --embossed-shadow-medium: 3px 3px 15px #c9cbd8,
+    -3px -3px 10px rgba(255, 255, 255, 0.8);
+  --debossed-shadow-medium: inset 2px 2px 8px #c9cbd8,
+    inset -3px -3px 10px rgba(255, 255, 255, 0.9);
+
+  --debossed-shadow-tiny: inset 2px 2px 5px rgba(102, 102, 102, 0.2),
+    inset -3px -3px 5px rgba(255, 255, 255, 0.8);
+
+  --debossed-shadow-mini-right: 8px 0 6px -6px rgba(204, 204, 204, 0.3);
+  --debossed-shadow-mini-bottom: inset 0 8px 6px -6px rgba(204, 204, 204, 0.3);
+  /*Default border*/
+  --border-inputs: 1px solid rgba(255, 255, 255, 0.2);
+
+  /*Border radius*/
+  --border-radius-high: 2.2em;
+  --border-radius-low: 1.2em;
+
+  /* hover opacity */
+  --hover-opacity: 0.3;
+
+  /* text font */
+  --text-font: "Gothic A1", sans-serif;
+  /* small font */
+  /*--small-font: "Gothic A1", sans-serif;*/
+}
