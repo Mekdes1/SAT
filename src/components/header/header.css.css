@@ -1,0 +1,29 @@
+#subject-dropdown{
+    color: black;
+}
+
+.cl{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.nav{
+    border:  2px solid red
+}
+
+.header-logo {
+    background-color: yellow;
+}
+#submit-btn{
+    background-color: var(--black) !important;
+    border-color: yellow !important;
+}
+#submit-btn:focus {
+    border-color: yellow !important;
+
+    box-shadow: 0 0 0 0.1rem yellow !important;
+    
+
+}
